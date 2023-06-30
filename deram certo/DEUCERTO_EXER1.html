@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 1000px;
+            height: 500px;
+            
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        header, aside, main, footer {
+            border: 1px solid black;
+        }
+
+        header {
+            background-color: rgb(248, 231, 156);
+            width: 100%;
+            height: 15%;
+        }
+
+        aside {
+            background-color: rgb(177, 205, 243);
+            width: 15%;
+            height: 70%;
+        }
+
+        main {
+            background-color: rgb(235, 180, 189);
+            width: 85%;
+            height: 70%;
+        }
+
+        footer {
+            background-color: rgb(193, 162, 233);
+            width: 100%;
+            height: 15%;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class = "container">
+
+        <header> Top </header>
+
+        <aside> SideBar </aside>
+
+        <main> Conteudo </main>
+
+        <footer> Bot </footer>
+
+    </div>
+    
+</body>
+</html>

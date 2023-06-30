@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .container {
+        height: 700px;
+        width: 900px; 
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    header, aside, main, footer {
+            border: 1px solid black;
+        }
+
+    header {
+        background-color: rgb(248, 231, 156);
+        width: 85%;
+        height: 15%;
+    }
+
+    aside {
+        background-color: rgb(177, 205, 243);
+        width: 15%;
+        height: 100%;
+    }
+
+    main {
+        background-color: rgb(235, 180, 189);
+        width: 85%;
+        height: 70%;
+    }
+
+    footer {
+        background-color: rgb(193, 162, 233);
+        width: 85%;
+        height: 15%;
+    }
+
+</style>
+
+<body>
+
+    <div class = "container">
+
+        <aside> SideBar </aside>
+
+        <header> Top </header>
+ 
+        <main> Conteudo </main>
+
+        <footer> Bot </footer>
+
+    </div>
+    
+</body>
+</html>
